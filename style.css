@@ -1,1 +1,44 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+
+.flex-container > * {
+  position: relative;
+  z-index: 2;
+}
+
+body{
+  background-image: url(Elden\ Ring\ ring.jpg);
+  font-family: sans-serif;
+  font-optical-sizing: 100;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+}
+
+.page-wrapper{
+  width: 80%;
+  max-width: 1280px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap ;
+  justify-content: center;
+}
+h1, h2, h3{
+  color: gold;
+}
+
+p{
+  color: goldenrod;
+}
+
+a{
+  color: green;
+}
+
+li{
+  color: gold;
+}
