@@ -1,22 +1,84 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
-.flex-container > * {
-  position: relative;
-  z-index: 2;
-}
-
 body{
-  background-image: url(Elden\ Ring\ ring.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 100px;
+  margin: 0 auto;
+  background-color: black;
+  background-image: url("elden\ ring\ ring\ 2nd.png");
   font-family: sans-serif;
   font-optical-sizing: 100;
   font-weight: 100;
   font-style: normal;
 }
 
-.box{
-  width: 150px;
-  height: 150px;
+/* .flex-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 20px;
+  background-color: black;
+  background-size: cover;
+  Background-color: rgba (0,0,0,0.5);
 }
+
+.box{
+  flex: 1;
+  padding: 20px;
+  border-start-end-radius: 10px;
+} 
+  
+DONT USE WORNG CLASS, CLASS IS THE TOP/FIRST WORD
+*/
+
+.summary {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.50);
+}
+
+.preamble {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.50);
+}
+
+.explaining {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.50);
+}
+
+.participation {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.50);
+}
+
+.benefits {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.50);
+}
+
+.requirements {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.50);
+}
+
+. {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.50);
+}
+
+ {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.50);
+}
+
+ {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.50);
+}
+
 
 .page-wrapper{
   width: 80%;
@@ -24,7 +86,7 @@ body{
   display: flex;
   margin: 0 auto;
   flex-direction: row;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   justify-content: center;
 }
 h1, h2, h3{
