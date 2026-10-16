@@ -34,51 +34,18 @@ body{
 DONT USE WORNG CLASS, CLASS IS THE TOP/FIRST WORD
 */
 
-.summary {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgba(0,0,0,0.50);
+.summary, .preamble, .explanation, .participation, .benefits, .requirements, .design-selection, .zen-resources, .design-archive {
+  border: 1px solid rgb(209, 193, 11);
+  background-color: rgba(0,0,0,0.80);
+  margin: 24px;
 }
 
-.preamble {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgba(0,0,0,0.50);
+.design-archive ul, .zen-resources ul, .design-selection ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-
-.explaining {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgba(0,0,0,0.50);
-}
-
-.participation {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgba(0,0,0,0.50);
-}
-
-.benefits {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgba(0,0,0,0.50);
-}
-
-.requirements {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgba(0,0,0,0.50);
-}
-
-. {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgba(0,0,0,0.50);
-}
-
- {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgba(0,0,0,0.50);
-}
-
- {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgba(0,0,0,0.50);
-}
-
 
 .page-wrapper{
   width: 80%;
@@ -88,6 +55,7 @@ DONT USE WORNG CLASS, CLASS IS THE TOP/FIRST WORD
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
 h1, h2, h3{
   color: gold;
@@ -104,3 +72,6 @@ a{
 li{
   color: gold;
 }
+
+
+
